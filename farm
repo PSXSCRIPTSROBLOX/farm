@@ -1,0 +1,5 @@
+local args = {
+    [1] = "Main"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Tap"):FireServer(unpack(args))
